@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CrudMVC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/CrudMVC.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

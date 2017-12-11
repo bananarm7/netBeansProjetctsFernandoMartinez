@@ -48,7 +48,6 @@ public class JFPerson extends javax.swing.JFrame {
         txtLastName = new javax.swing.JTextField();
         txtName = new javax.swing.JTextField();
         txtPlace = new javax.swing.JTextField();
-        jBirthday = new com.toedter.calendar.JDateChooser();
         txtDni = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         btnCreate = new javax.swing.JButton();
@@ -105,7 +104,6 @@ public class JFPerson extends javax.swing.JFrame {
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jBirthday, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(txtPlace)
                     .addComponent(txtName)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -132,8 +130,7 @@ public class JFPerson extends javax.swing.JFrame {
                 .addGap(30, 30, 30)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jBirthday, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(30, 30, 30)
+                        .addGap(46, 46, 46)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txtPlace, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -424,7 +421,6 @@ public class JFPerson extends javax.swing.JFrame {
     private javax.swing.JButton btnDelete;
     private javax.swing.JButton btnRead;
     private javax.swing.JButton btnUpdate;
-    private com.toedter.calendar.JDateChooser jBirthday;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

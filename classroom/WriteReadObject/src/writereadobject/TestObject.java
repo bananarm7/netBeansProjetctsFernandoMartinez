@@ -1,9 +1,6 @@
 
 package writereadobject;
-
-import static java.io.FileDescriptor.in;
 import java.io.Serializable;
-import static java.lang.System.in;
 
 public class TestObject implements Serializable {
     private int id;
